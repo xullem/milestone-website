@@ -22,6 +22,9 @@ h2 {
     text-align: center;
 }
 
+
+
+
 .full-width {
   width: 1200px;
 }
@@ -100,10 +103,23 @@ span {
   height: 250px;
   width: 430px;
 }
+#portfolio h2{
+  padding-bottom: 50px;
+}
+
+#portfolio h3 {
+  line-height: 1px;
+}
+
+#portfolio h4 {
+ font-weight: lighter;
+ font-size: 18px;
+ line-height: 0px;
+}
 
 #portfolio img {
-  height: 250px;
-  width: 430px;
+  height: 270px;
+  width: 450px;
 }
 
 /*****ABOUT*****/
