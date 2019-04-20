@@ -103,6 +103,7 @@ span {
   height: 250px;
   width: 430px;
 }
+
 #portfolio h2{
   padding-bottom: 50px;
 }
@@ -119,6 +120,7 @@ span {
 
 #portfolio img {
   height: 270px;
+  padding-bottom: 40px;
   width: 450px;
 }
 
