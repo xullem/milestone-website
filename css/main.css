@@ -3,30 +3,6 @@ body {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
-.full-width {
-  width: 1400px;
-}
-
-.half-width {
-  width: 700px;
-}
-
-.third-width {
-  float: left;
-  width: 466px;
-}
-/*****GRID*****/
-#name {
-  float: left;
-  font-size: 30px;
-}
-
-#menu {
-  float: left;
-}
-#pic {
-  clear: both;
-}
 
 h1 {
   clear: both;
@@ -34,7 +10,46 @@ h1 {
   font-size: 72px;
   font-weight: bold;
   padding-left: 100px;
-  padding-top: 325px;
+  padding-top: 270px;
+
+}
+
+h2 {
+    color: #ed1775;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+/*****GRID*****/
+#name {
+  float: left;
+  font-size: 30px;
+  padding-left: 20px;
+  width: 500px;
+  
+}
+
+#menu {
+  float: right;
+
+}
+
+#pic {
+  clear: both;
 }
 
 #column-one {
@@ -50,17 +65,25 @@ h1 {
 }
 
 /*****HEADER*****/
+nav {
+  width: 700px;
+}
 nav, ul, li, a  {
   color: #ffffff;
   display: inline-block;
   font-size: 30px;
-  padding-right: 30px;
+  margin-left: 5px;
+  padding-left: 30px;
   text-decoration: none;
+
+
+
 }
 
   #pic {
   background: url(../img/hero-background.png);
   background-size: cover;
+  width: 1400px;
 
   height: 738px;
 }
