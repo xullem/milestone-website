@@ -40,7 +40,7 @@ h2 {
   font-size: 30px;
   padding-left: 20px;
   width: 500px;
-  
+
 }
 
 #menu {
@@ -54,10 +54,12 @@ h2 {
 
 #column-one {
   float: left;
+  margin-left: 100px;
 }
 
 #column-two {
   float: left;
+  width: 500px;
 }
 
 #about {
@@ -68,23 +70,25 @@ h2 {
 nav {
   width: 700px;
 }
-nav, ul, li, a  {
+nav ul li   {
   color: #ffffff;
   display: inline-block;
   font-size: 30px;
   margin-left: 5px;
   padding-left: 30px;
   text-decoration: none;
-
-
-
+}
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 5px;
+  padding-left: 30px;
 }
 
   #pic {
   background: url(../img/hero-background.png);
   background-size: cover;
   width: 1400px;
-
   height: 738px;
 }
 
@@ -93,5 +97,41 @@ span {
 }
 /*****PORTFOLIO*****/
 .description {
-  height: 350px;
+  height: 250px;
+  width: 430px;
+}
+
+#portfolio img {
+  height: 250px;
+  width: 430px;
+}
+
+/*****ABOUT*****/
+#about {
+  background: url(../img/about-me.png);
+  background-size: cover;
+  height: 550px;
+  width: 1400px;
+}
+
+/*****CONTACT*****/
+#contact h3, p {
+  text-align: center;
+}
+#icons ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 10px;
+  margin-left:  35px;
+}
+
+
+/*****FOOTER*****/
+footer{
+  clear: both;
+}
+footer p {
+  padding:-top: 30px;
+  text-align: center;
+
 }
