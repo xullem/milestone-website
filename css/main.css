@@ -21,9 +21,14 @@ h2 {
     font-weight: lighter;
     text-align: center;
 }
+.whole-container{
+  width: 1200px
+  margin: 0 auto;
+}
 
 .full-width {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .half-width {
@@ -35,6 +40,7 @@ h2 {
   width: 400px;
 }
 /*****GRID*****/
+
 #name {
   float: left;
   font-size: 30px;
@@ -88,8 +94,9 @@ nav ul li   {
   #pic {
   background: url(../img/hero-background.png);
   background-size: cover;
-  width: 1400px;
+  width: 1200px;
   height: 738px;
+  margin: 0 auto;
 }
 
 span {
@@ -111,7 +118,7 @@ span {
   background: url(../img/about-me.png);
   background-size: cover;
   height: 550px;
-  width: 1400px;
+  width: 1200px;
 }
 
 /*****CONTACT*****/
