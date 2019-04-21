@@ -54,9 +54,7 @@ h2 {
 
 }
 
-#pic {
-  clear: both;
-}
+
 
 #column-one {
   float: left;
@@ -94,6 +92,7 @@ nav ul li   {
   #pic {
   background: url(../img/hero-background.png);
   background-size: cover;
+  clear: both;
   width: 1200px;
   height: 738px;
   margin: 0 auto;
