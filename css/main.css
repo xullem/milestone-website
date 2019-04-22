@@ -70,13 +70,13 @@ margin: 0 auto;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-top: 50px;
-  padding-left: 80px;
+  /*padding-left: 80px;*/
 }
 
 #column-two {
   float: left;
   margin-bottom: 50px;
-  margin-left: 10px;
+  margin-left: 125px;
   margin-top: 50px;
   padding-left: 0px;
 }
@@ -116,14 +116,14 @@ span {
 }
 /*****PORTFOLIO*****/
 .description {
-  height: 250px;
-  width: 430px;
+  height: 350px;
+  width: 530px;
   margin-bottom: 50px;
 }
 
 #portfolio img {
-  height: 250px;
-  width: 430px;
+  height: 350px;
+  width: 530px;
   margin-bottom: 50px;
 }
 
@@ -143,6 +143,17 @@ span {
   /*width: 1220px;*/
 }
 
+#about h2 {
+  padding-top: 50px;
+}
+
+#about h3 {
+  padding-left: 50px;
+}
+
+#about p {
+  padding-left: 50px;
+}
 /*****CONTACT*****/
 #icons ul li {
   display: inline-block;
