@@ -22,9 +22,9 @@ h2 {
     text-align: center;
 }
 
-.whole-container{
+/*.whole-container{
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;*/
 }
 
 .full-width {
@@ -99,7 +99,7 @@ nav ul li   {
   background: url(../img/hero-background.png);
   background-size: 100%;
   clear: both;
-  width: 1233px;
+  /*width: 1233px;*/
   height: 630px;
   margin: 0 auto;
 }
@@ -123,7 +123,7 @@ span {
   background: url(../img/about-me.png);
   background-size: cover;
   height: 550px;
-  width: 1200px;
+  /*width: 1220px;*/
 }
 
 /*****CONTACT*****/
@@ -135,11 +135,11 @@ span {
 
 
 /*****FOOTER*****/
-footer{
+footer {
   clear: both;
 }
-footer p {
-  padding:-top: 30px;
-  text-align: center;
+footer p{
+  padding-top: 30px;
+  padding-left: 495px;
 
 }
