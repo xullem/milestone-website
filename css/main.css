@@ -22,6 +22,12 @@ h2 {
     text-align: center;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0px;
+}
+
 /*.whole-container{
   width: 1200px;
   margin: 0 auto;*/
@@ -67,13 +73,13 @@ margin: 0 auto;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-top: 50px;
-  padding-left: 80px;
+  /*padding-left: 80px;*/
 }
 
 #column-two {
   float: left;
   margin-bottom: 50px;
-  margin-left: 10px;
+  margin-left: 125px;
   margin-top: 50px;
   padding-left: 0px;
 }
@@ -101,7 +107,7 @@ nav ul li   {
 
   #pic {
   background: url(../img/hero-background.png);
-  background-size: 100%;
+  background-size: cover;
   clear: both;
   /*width: 1233px;*/
   height: 630px;
@@ -113,8 +119,9 @@ span {
 }
 /*****PORTFOLIO*****/
 .description {
-  height: 250px;
-  width: 430px;
+  height: 350px;
+  width: 530px;
+  margin-bottom: 50px;
 }
 
 #portfolio h2{
@@ -132,11 +139,25 @@ span {
 }
 
 #portfolio img {
+<<<<<<< HEAD
   height: 270px;
   padding-bottom: 40px;
   width: 450px;
+=======
+  height: 350px;
+  width: 530px;
+  margin-bottom: 50px;
+>>>>>>> lux-edits
 }
 
+#portfolio h3 {
+  line-height: 0px;
+}
+
+#portfolio a {
+  color: #ffffff;
+  text-decoration: none;
+}
 /*****ABOUT*****/
 #about {
   background: url(../img/about-me.png);
@@ -145,6 +166,21 @@ span {
   /*width: 1220px;*/
 }
 
+#about h2 {
+  padding-top: 50px;
+}
+
+#about h3 {
+  color: black;
+  padding-left: 50px;
+
+}
+
+#about p {
+  color: black;
+  padding-left: 50px;
+  width: 600px;
+}
 /*****CONTACT*****/
 #icons ul li {
   display: inline-block;
