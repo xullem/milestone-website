@@ -9,8 +9,8 @@ h1 {
   font-family: 'Source Code Pro', monospace;
   font-size: 72px;
   font-weight: bold;
-  padding-left: 100px;
-  padding-top: 270px;
+  padding-left: 50px;
+  padding-top: 220px;
 
 }
 
@@ -21,9 +21,10 @@ h2 {
     font-weight: lighter;
     text-align: center;
 }
-.whole-container{
+
+/*.whole-container{
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;*/
 }
 
 
@@ -35,7 +36,7 @@ h2 {
 }
 
 .half-width {
-  width: 600px;
+  width: 500px;
 }
 
 .third-width {
@@ -49,7 +50,7 @@ h2 {
 #name {
   float: left;
   font-size: 30px;
-  /*padding-left: 20px;*/
+  padding-left: 10px;
 /*  width: 500px;*/
 margin: 0 auto;
 
@@ -58,16 +59,23 @@ margin: 0 auto;
 #menu {
   float: right;
   font-size: 30px;
+  padding-right: 10px;
 }
 
 #column-one {
   float: left;
-  margin-left: 0px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-left: 80px;
 }
 
 #column-two {
   float: left;
-  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+  padding-left: 0px;
 }
 
 #about {
@@ -82,8 +90,6 @@ nav ul li   {
   color: #ffffff;
   display: inline-block;
   font-size: 30px;
-  margin-left: 5px;
-  padding-left: 30px;
   text-decoration: none;
 }
 #menu a {
@@ -95,12 +101,11 @@ nav ul li   {
 
   #pic {
   background: url(../img/hero-background.png);
-  background-size: cover;
+  background-size: 100%;
   clear: both;
-  width: 1220px;
-  height: 738px;
+  /*width: 1233px;*/
+  height: 630px;
   margin: 0 auto;
-  border: 1px solid white;
 }
 
 span {
@@ -137,7 +142,7 @@ span {
   background: url(../img/about-me.png);
   background-size: cover;
   height: 550px;
-  width: 1200px;
+  /*width: 1220px;*/
 }
 
 /*****CONTACT*****/
@@ -149,11 +154,11 @@ span {
 
 
 /*****FOOTER*****/
-footer{
+footer {
   clear: both;
 }
-footer p {
-  padding:-top: 30px;
-  text-align: center;
+footer p{
+  padding-top: 30px;
+  padding-left: 495px;
 
 }
