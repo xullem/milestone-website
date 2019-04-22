@@ -148,11 +148,15 @@ span {
 }
 
 #about h3 {
+  color: black;
   padding-left: 50px;
+
 }
 
 #about p {
+  color: black;
   padding-left: 50px;
+  width: 600px;
 }
 /*****CONTACT*****/
 #icons ul li {
