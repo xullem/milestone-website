@@ -21,12 +21,17 @@ h2 {
     font-weight: lighter;
     text-align: center;
 }
+.whole-container{
+  width: 1200px;
+  margin: 0 auto;
+}
 
 
 
 
 .full-width {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .half-width {
@@ -35,34 +40,34 @@ h2 {
 
 .third-width {
   float: left;
+  text-align: center;
   width: 400px;
+
 }
 /*****GRID*****/
+
 #name {
   float: left;
   font-size: 30px;
-  padding-left: 20px;
-  width: 500px;
+  /*padding-left: 20px;*/
+/*  width: 500px;*/
+margin: 0 auto;
 
 }
 
 #menu {
   float: right;
-
-}
-
-#pic {
-  clear: both;
+  font-size: 30px;
 }
 
 #column-one {
   float: left;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 
 #column-two {
   float: left;
-  width: 500px;
+  margin: 0 auto;
 }
 
 #about {
@@ -71,7 +76,7 @@ h2 {
 
 /*****HEADER*****/
 nav {
-  width: 700px;
+  /*width: 700px;*/
 }
 nav ul li   {
   color: #ffffff;
@@ -91,8 +96,11 @@ nav ul li   {
   #pic {
   background: url(../img/hero-background.png);
   background-size: cover;
-  width: 1400px;
+  clear: both;
+  width: 1220px;
   height: 738px;
+  margin: 0 auto;
+  border: 1px solid white;
 }
 
 span {
@@ -129,18 +137,14 @@ span {
   background: url(../img/about-me.png);
   background-size: cover;
   height: 550px;
-  width: 1400px;
+  width: 1200px;
 }
 
 /*****CONTACT*****/
-#contact h3, p {
-  text-align: center;
-}
 #icons ul li {
   display: inline-block;
   text-decoration: none;
-  padding-right: 10px;
-  margin-left:  35px;
+  padding-right: 24px;
 }
 
 
