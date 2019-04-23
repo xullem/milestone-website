@@ -9,7 +9,7 @@ h1 {
   font-family: 'Source Code Pro', monospace;
   font-size: 72px;
   font-weight: bold;
-  padding-left: 50px;
+  padding-left: 100px;
   padding-top: 220px;
 
 }
@@ -70,18 +70,18 @@ margin: 0 auto;
 
 #column-one {
   float: left;
-  margin-bottom: 50px;
-  margin-left: 50px;
+  /*margin-bottom: 10px;*/
+  margin-left: 100px;
   margin-top: 50px;
   /*padding-left: 80px;*/
 }
 
 #column-two {
   float: left;
-  margin-bottom: 50px;
-  margin-left: 125px;
+  /*margin-bottom: 10px;*/
+  margin-left: 100px;
   margin-top: 50px;
-  padding-left: 0px;
+  /*padding-left: 0px;*/
 }
 
 #about {
@@ -119,9 +119,11 @@ span {
 }
 /*****PORTFOLIO*****/
 .description {
-  height: 350px;
-  width: 530px;
+  font-size: 18px;
+  height: 280px;
+  width: 460px;
   margin-bottom: 50px;
+  margin-top: 0 auto;
 }
 
 #portfolio h2{
@@ -139,15 +141,12 @@ span {
 }
 
 #portfolio img {
-<<<<<<< HEAD
-  height: 270px;
-  padding-bottom: 40px;
-  width: 450px;
-=======
-  height: 350px;
-  width: 530px;
+
+  height: 280px;
+  width: 460px;
+
   margin-bottom: 50px;
->>>>>>> lux-edits
+
 }
 
 #portfolio h3 {
@@ -172,20 +171,20 @@ span {
 
 #about h3 {
   color: black;
-  padding-left: 50px;
+  padding-left: 100px;
 
 }
 
 #about p {
   color: black;
-  padding-left: 50px;
-  width: 600px;
+  padding-left: 100px;
+  width: 550px;
 }
 /*****CONTACT*****/
 #icons ul li {
   display: inline-block;
   text-decoration: none;
-  padding-right: 24px;
+  padding-right: 30px;
 }
 
 
