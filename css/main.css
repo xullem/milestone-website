@@ -45,6 +45,11 @@ h4 {
   width: 500px;
 }
 
+.about-half-width{
+  float: left;
+  width: 500px;
+}
+
 .third-width {
   float: left;
   text-align: center;
@@ -159,26 +164,49 @@ span {
 }
 /*****ABOUT*****/
 #about {
-  background: url(../img/about-me.png);
+  background: url(../img/arrows.png);
   background-size: cover;
-  height: 550px;
+  height: 650px;
   /*width: 1220px;*/
 }
 
 #about h2 {
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
 }
 
 #about h3 {
+  background-color: white;
   color: black;
-  padding-left: 100px;
+  padding: 15px;
 
 }
 
 #about p {
+  background-color: white;
   color: black;
-  padding-left: 100px;
-  width: 550px;
+  padding: 15px;
+  width: 500px;
+
+}
+#blurb {
+  background-color: white;
+  border: 10px solid white;
+  border-radius: 80px;
+  margin-left: 100px;
+
+  /*width: 500px;*/
+}
+
+#profile {
+  padding-left: 140px;
+  padding-top: 10px;
+}
+
+#profile img {
+  border: 10px solid white;
+  border-radius: 80px;
 }
 /*****CONTACT*****/
 #icons ul li {
@@ -186,6 +214,11 @@ span {
   text-decoration: none;
   padding-right: 30px;
 }
+
+#icons, #hire{
+  padding-top: 30px;
+}
+
 
 
 /*****FOOTER*****/
