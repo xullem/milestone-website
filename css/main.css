@@ -2,18 +2,19 @@ body {
   background: #1f202b;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 h1 {
   clear: both;
   font-family: 'Fredoka One', cursive;
 
-  font-size: 92px;
+  font-size: 140px;
   font-weight: bold;
-  line-height: 70px;
-  padding-left: 200px;
-/*  padding-left: 810px;
-  padding-top: 390px;*/
+  line-height: 94px;
+  /*padding-left: 200px;*/
+ padding-left: 880px;
+  padding-top: 360px;
 
 }
 
