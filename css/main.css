@@ -6,16 +6,17 @@ body {
 
 h1 {
   clear: both;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 72px;
+  font-family: 'Fredoka One', cursive;
+
+  font-size: 78px;
   font-weight: bold;
-  padding-left: 100px;
-  padding-top: 220px;
+  padding-left: 830px;
+  padding-top: 380px;
 
 }
 
 h2 {
-    color: #ed1775;
+    color: #99ff99;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     font-weight: lighter;
@@ -111,11 +112,13 @@ nav ul li   {
 }
 
   #pic {
-  background: url(../img/hero-background.png);
-  background-size: cover;
+  background: url(../img/brain-hero.png)no-repeat;
+  background-color: #99ff99;
+  /*background-size: 100%;*/
   clear: both;
   /*width: 1233px;*/
-  height: 630px;
+  height: 700px;
+  padding-top: 10px;
   margin: 0 auto;
 }
 
@@ -173,39 +176,41 @@ span {
 #about h2 {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: white;
+  background-color: #1f202b;
 }
 
 #about h3 {
-  background-color: white;
-  color: black;
+  background-color: #1f202b;
+  color: white;
   padding: 15px;
 
 }
 
 #about p {
-  background-color: white;
-  color: black;
+  /*background-color: #1f202b;*/
+  color: white;
   padding: 15px;
-  width: 500px;
-
+  width: 480px;
 }
+
 #blurb {
-  background-color: white;
-  border: 10px solid white;
-  border-radius: 80px;
+  background-color: #1f202b;
+  border: 10px solid #1f202b;
+  border-radius: 70px;
+  margin-top: 30px;
   margin-left: 100px;
+
 
   /*width: 500px;*/
 }
 
 #profile {
   padding-left: 140px;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 #profile img {
-  border: 10px solid white;
+  border: 10px solid #1f202b;
   border-radius: 80px;
 }
 /*****CONTACT*****/
@@ -215,7 +220,7 @@ span {
   padding-right: 30px;
 }
 
-#icons, #hire{
+#icons, #hire, #meet{
   padding-top: 30px;
 }
 
