@@ -14,7 +14,7 @@ h1 {
   line-height: 94px;
   /*padding-left: 200px;*/
  padding-left: 880px;
-  padding-top: 360px;
+  padding-top: 365px;
 
 }
 
@@ -110,7 +110,9 @@ nav ul li   {
   font-size: 30px;
   text-decoration: none;
 }
+
 #menu a {
+
   color: #ffffff;
   text-decoration: none;
   margin-left: 5px;
@@ -123,8 +125,7 @@ nav ul li   {
   /*background-size: 100%;*/
   clear: both;
   /*width: 1233px;*/
-  height: 700px;
-  padding-top: 10px;
+  height: 600px;
   margin: 0 auto;
 }
 
@@ -136,17 +137,19 @@ span {
   font-size: 14px;
   height: 180px;
   width: 340px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   margin-top: 0 auto;
+  padding-left: 75px;
+  text-align: left;
 }
 
 /*#portfolio h2{
   padding-bottom: 50px;
-}
+}*/
 
 #portfolio h3 {
   line-height: 1px;
-}*/
+}
 
 #portfolio h4 {
  font-weight: lighter;
@@ -182,9 +185,14 @@ span {
 }
 
 #about h2 {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #1f202b;
+  margin-left: 400px;
+  /*padding-top: 25px;*/
+  /*padding-bottom: 25px;*/
+  width: 400px;
+  background-color: white;
+  border: 10px solid white;
+  border-radius: 40px;
+  font-weight:600;
 }
 
 #about h3 {
