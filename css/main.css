@@ -79,20 +79,23 @@ margin: 0 auto;
 
 #column-one {
   float: left;
-  /*margin-bottom: 10px;*/
+  /*margin-bottom: 10px;
   margin-left: 100px;
   margin-top: 50px;
-  /*padding-left: 80px;*/
+  padding-left: 80px;*/
 }
 
 #column-two {
   float: left;
-  /*margin-bottom: 10px;*/
+  /*margin-bottom: 10px;
   margin-left: 100px;
   margin-top: 50px;
-  /*padding-left: 0px;*/
+  padding-left: 0px;*/
 }
 
+#column-three {
+  float: left;
+}
 #about {
   clear: both;
 }
@@ -130,39 +133,41 @@ span {
 }
 /*****PORTFOLIO*****/
 .description {
-  font-size: 18px;
-  height: 280px;
-  width: 460px;
+  font-size: 14px;
+  height: 180px;
+  width: 340px;
   margin-bottom: 50px;
   margin-top: 0 auto;
 }
 
-#portfolio h2{
+/*#portfolio h2{
   padding-bottom: 50px;
 }
 
 #portfolio h3 {
   line-height: 1px;
-}
+}*/
 
 #portfolio h4 {
  font-weight: lighter;
- font-size: 18px;
+ font-size: 16px;
  line-height: 0px;
 }
 
 #portfolio img {
 
-  height: 280px;
-  width: 460px;
+  height: 180px;
+  padding-left: 50px;
+  width: 300px;
 
-  margin-bottom: 50px;
+
+  /*margin-bottom: 50px;*/
 
 }
 
-#portfolio h3 {
+/*#portfolio h3 {
   line-height: 0px;
-}
+}*/
 
 #portfolio a {
   color: #ffffff;
@@ -208,13 +213,16 @@ span {
 }
 
 #profile {
-  padding-left: 140px;
+  padding-left: 100px;
   padding-top: 40px;
 }
 
 #profile img {
+  height: 400px;
+  width: 300px;
   border: 10px solid #1f202b;
   border-radius: 80px;
+  margin: 0 auto;
 }
 /*****CONTACT*****/
 #icons ul li {
