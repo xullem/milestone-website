@@ -2,28 +2,24 @@ body {
   background: #1f202b;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 h1 {
   clear: both;
   font-family: 'Fredoka One', cursive;
-
-  font-size: 140px;
+  font-size: 160px;
   font-weight: bold;
   line-height: 94px;
-  /*padding-left: 200px;*/
- padding-left: 880px;
-  padding-top: 365px;
-
+  padding-left: 820px;
+  padding-top: 395px;
 }
 
 h2 {
-    color: #99ff99;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 36px;
-    font-weight: lighter;
-    text-align: center;
+  color: #99ff99;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 h4 {
@@ -32,78 +28,60 @@ h4 {
   line-height: 0px;
 }
 
-/*.whole-container{
-  width: 1200px;
-  margin: 0 auto;*/
-}
-
-
-
-
+/*****GRID STYLES*****/
 .full-width {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 500px;
+
 }
 
 .about-half-width{
   float: left;
-  width: 500px;
 }
 
 .third-width {
   float: left;
   text-align: center;
   width: 400px;
-
 }
-/*****GRID*****/
 
+/*****GRID*****/
 #name {
   float: left;
   font-size: 30px;
+  line-height: 0px;
+  margin: 0 auto;
   padding-left: 10px;
-/*  width: 500px;*/
-margin: 0 auto;
-
 }
 
 #menu {
   float: right;
   font-size: 30px;
+  line-height: 0px;
   padding-right: 10px;
 }
 
 #column-one {
   float: left;
-  /*margin-bottom: 10px;
-  margin-left: 100px;
-  margin-top: 50px;
-  padding-left: 80px;*/
 }
 
 #column-two {
   float: left;
-  /*margin-bottom: 10px;
-  margin-left: 100px;
-  margin-top: 50px;
-  padding-left: 0px;*/
 }
 
 #column-three {
   float: left;
 }
+
 #about {
   clear: both;
 }
 
 /*****HEADER*****/
-nav {
-  /*width: 700px;*/
-}
+
 nav ul li   {
   color: #ffffff;
   display: inline-block;
@@ -112,40 +90,35 @@ nav ul li   {
 }
 
 #menu a {
-
   color: #ffffff;
-  text-decoration: none;
   margin-left: 5px;
   padding-left: 30px;
+  text-decoration: none;
 }
 
-  #pic {
-  background: url(../img/brain-hero.png)no-repeat;
+#pic {
+  background: url(../img/brain-hero-full.png)no-repeat;
   background-color: #99ff99;
-  /*background-size: 100%;*/
+  background-size: cover;
   clear: both;
-  /*width: 1233px;*/
-  height: 600px;
+  height: 700px;
   margin: 0 auto;
 }
 
 span {
   color: #ed1775;
 }
+
 /*****PORTFOLIO*****/
 .description {
   font-size: 14px;
   height: 180px;
-  width: 340px;
   margin-bottom: 70px;
   margin-top: 0 auto;
   padding-left: 75px;
   text-align: left;
+  width: 340px;
 }
-
-/*#portfolio h2{
-  padding-bottom: 50px;
-}*/
 
 #portfolio h3 {
   line-height: 1px;
@@ -158,52 +131,39 @@ span {
 }
 
 #portfolio img {
-
   height: 180px;
   padding-left: 50px;
   width: 300px;
-
-
-  /*margin-bottom: 50px;*/
-
 }
-
-/*#portfolio h3 {
-  line-height: 0px;
-}*/
 
 #portfolio a {
   color: #ffffff;
   text-decoration: none;
 }
+
 /*****ABOUT*****/
 #about {
   background: url(../img/arrows.png);
   background-size: cover;
   height: 650px;
-  /*width: 1220px;*/
 }
 
 #about h2 {
-  margin-left: 400px;
-  /*padding-top: 25px;*/
-  /*padding-bottom: 25px;*/
-  width: 400px;
   background-color: white;
   border: 10px solid white;
   border-radius: 40px;
   font-weight:600;
+  margin-left: 400px;
+  width: 400px;
 }
 
 #about h3 {
   background-color: #1f202b;
   color: white;
   padding: 15px;
-
 }
 
 #about p {
-  /*background-color: #1f202b;*/
   color: white;
   padding: 15px;
   width: 480px;
@@ -215,9 +175,6 @@ span {
   border-radius: 70px;
   margin-top: 30px;
   margin-left: 100px;
-
-
-  /*width: 500px;*/
 }
 
 #profile {
@@ -226,32 +183,30 @@ span {
 }
 
 #profile img {
-  height: 400px;
-  width: 300px;
   border: 10px solid #1f202b;
   border-radius: 80px;
+  height: 400px;
   margin: 0 auto;
-
+  width: 300px;
 }
+
 /*****CONTACT*****/
 #icons ul li {
   display: inline-block;
-  text-decoration: none;
   padding-right: 30px;
+  text-decoration: none;
 }
 
 #icons, #hire, #meet{
   padding-top: 30px;
 }
 
-
-
 /*****FOOTER*****/
 footer {
   clear: both;
 }
-footer p{
-  padding-top: 30px;
-  padding-left: 495px;
 
+footer p {
+  padding-left: 495px;
+  padding-top: 30px;
 }
