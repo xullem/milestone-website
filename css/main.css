@@ -10,8 +10,8 @@ h1 {
   font-size: 160px;
   font-weight: bold;
   line-height: 94px;
-  padding-left: 820px;
-  padding-top: 395px;
+  padding-left: 860px;
+  padding-top: 400px;
 }
 
 h2 {
@@ -101,7 +101,7 @@ nav ul li   {
   background-color: #99ff99;
   background-size: cover;
   clear: both;
-  height: 700px;
+  height: 720px;
   margin: 0 auto;
 }
 
@@ -198,7 +198,7 @@ span {
 }
 
 #icons, #hire, #meet{
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 /*****FOOTER*****/
