@@ -146,15 +146,18 @@ span {
   background: url(../img/arrows.png);
   background-size: cover;
   height: 650px;
+  margin: 0 auto;
 }
 
 #about h2 {
-  background-color: white;
+  background-color: #99ff99;
   border: 10px solid white;
   border-radius: 40px;
+  color: #1f202b;
   font-weight:600;
-  margin-left: 400px;
-  width: 400px;
+  margin-left: 475px;
+  margin-top: 50px;
+  width: 300px;
 }
 
 #about h3 {
