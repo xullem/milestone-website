@@ -1,152 +1,127 @@
+/*****BASE STYLE*****/
 body {
-  background: #1f202b;
-  color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  color: white;
+  background: #1f202b;
 }
 
-h1 {
-  clear: both;
-  font-family: 'Fredoka One', cursive;
-  font-size: 160px;
-  font-weight: bold;
-  line-height: 94px;
-  padding-left: 860px;
-  padding-top: 400px;
+span {
+   color: #ed1775;
 }
 
-h2 {
-  color: #99ff99;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 36px;
-  font-weight: lighter;
-  text-align: center;
+#about, #portfolio {
+  height: 600px;
 }
 
-h4 {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 0px;
+#contact {
+  height: 300px;
 }
 
-/*****GRID STYLES*****/
+/*****GRID*****/
 .full-width {
-  width: 100%;
-  margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .half-width {
-
+    width: 600px;
+    float: left;
 }
 
-.about-half-width{
+.about-half-width {
   float: left;
 }
 
 .third-width {
-  float: left;
-  text-align: center;
-  width: 400px;
-}
-
-/*****GRID*****/
-#name {
-  float: left;
-  font-size: 30px;
-  line-height: 0px;
-  margin: 0 auto;
-  padding-left: 10px;
-}
-
-#menu {
-  float: right;
-  font-size: 30px;
-  line-height: 0px;
-  padding-right: 10px;
-}
-
-#column-one {
-  float: left;
-}
-
-#column-two {
-  float: left;
-}
-
-#column-three {
-  float: left;
-}
-
-#about {
-  clear: both;
+    width: 400px;
+    float: left;
 }
 
 /*****HEADER*****/
-
-nav ul li   {
-  color: #ffffff;
-  display: inline-block;
+h5 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  text-decoration: none;
+  font-weight: 500;
+  line-height: 0px;
 }
 
-#menu a {
-  color: #ffffff;
-  margin-left: 5px;
-  padding-left: 30px;
-  text-decoration: none;
+nav {
+  float: right;
+  padding-top: 15px;
 }
 
-#pic {
-  background: url(../img/brain-hero-full.png)no-repeat;
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+header {
+  background: url(../img/brain-hero-full.png);
   background-color: #99ff99;
   background-size: cover;
-  clear: both;
-  height: 720px;
-  margin: 0 auto;
+  clear:both;
+  height: 680px;
 }
 
-span {
-  color: #ed1775;
+header h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 150px;
+  font-weight: bold;
+  line-height: 84px;
+  padding-left: 868px;
+  padding-top: 384px;
 }
 
 /*****PORTFOLIO*****/
-.description {
-  font-size: 14px;
-  height: 180px;
-  margin-bottom: 70px;
-  margin-top: 0 auto;
-  padding-left: 75px;
-  text-align: left;
-  width: 340px;
+
+#portfolio h2 {
+  color: #99ff99;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  font-weight: lighter;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#portfolio img {
+  padding: 0px 50px;
 }
 
 #portfolio h3 {
   line-height: 1px;
+  padding-left: 50px;
 }
 
 #portfolio h4 {
- font-weight: lighter;
- font-size: 16px;
- line-height: 0px;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 0px;
+  padding-left: 50px;
 }
 
-#portfolio img {
-  height: 180px;
-  padding-left: 50px;
-  width: 300px;
-}
+#portfolio p {
+    font-size: 14px;
+    padding: 0px 50px;
+  }
 
 #portfolio a {
-  color: #ffffff;
   text-decoration: none;
 }
 
 /*****ABOUT*****/
-#about {
-  background: url(../img/arrows.png);
+
+
+section {
+  background: url(../img/arrows-full.png);
   background-size: cover;
-  height: 650px;
-  margin: 0 auto;
 }
 
 #about h2 {
@@ -154,9 +129,11 @@ span {
   border: 10px solid white;
   border-radius: 40px;
   color: #1f202b;
-  font-weight:600;
-  margin-left: 475px;
-  margin-top: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 450px;
+  text-align: center;
   width: 300px;
 }
 
@@ -172,12 +149,12 @@ span {
   width: 480px;
 }
 
-#blurb {
+ #blurb {
   background-color: #1f202b;
   border: 10px solid #1f202b;
   border-radius: 70px;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 #profile {
@@ -194,22 +171,29 @@ span {
 }
 
 /*****CONTACT*****/
-#icons ul li {
-  display: inline-block;
-  padding-right: 30px;
-  text-decoration: none;
+#contact h2 {
+  color: #99ff99;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  font-weight: lighter;
+  padding-top: 20px;
+  text-align: center;
 }
 
-#icons, #hire, #meet{
-  padding-top: 10px;
-}
+  #contact h3 {
+    text-align: center;
+  }
 
-/*****FOOTER*****/
-footer {
-  clear: both;
-}
+  #contact p {
+    text-align: center;
+  }
 
-footer p {
-  padding-left: 495px;
-  padding-top: 30px;
-}
+  #contact ul li{
+    display: inline-block;
+    padding-left: 40px;
+  }
+
+  /*****footer*****/
+  footer{
+    text-align: center;
+  }
