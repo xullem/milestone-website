@@ -9,6 +9,10 @@ span {
    color: #ed1775;
 }
 
+ p span:hover {
+    color: #99ff99;
+}
+
 #about, #portfolio {
   height: 600px;
 }
