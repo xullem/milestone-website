@@ -1,199 +1,92 @@
-/*****BASE STYLE*****/
+/*****BASE STYLES FLEXBOX MOBILE*****/
+html {
+  font-size: 16px;
+  width:100%;
+  height:100%;
+}
+
 body {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
   color: white;
   background: #1f202b;
 }
 
-span {
-   color: #ed1775;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
-
-#about, #portfolio {
-  height: 600px;
-}
-
-#contact {
-  height: 300px;
-}
-
-/*****GRID*****/
-.full-width {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.half-width {
-    width: 600px;
-    float: left;
-}
-
-.about-half-width {
-  float: left;
-}
-
-.third-width {
-    width: 400px;
-    float: left;
-}
-
-/*****HEADER*****/
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 0px;
-}
-
-nav {
-  float: right;
-  padding-top: 15px;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  text-decoration: none;
-  padding-left: 20px;
-}
-
-header {
-  background: url(../img/brain-hero-full.png);
-  background-color: #99ff99;
-  background-size: cover;
-  clear:both;
-  height: 680px;
-}
-
-header h1 {
-  font-family: 'Fredoka One', cursive;
-  font-size: 150px;
-  font-weight: bold;
-  line-height: 84px;
-  padding-left: 868px;
-  padding-top: 384px;
-}
-
-/*****PORTFOLIO*****/
-
-#portfolio h2 {
-  color: #99ff99;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 36px;
-  font-weight: lighter;
-  padding-top: 20px;
-  text-align: center;
-}
-
-#portfolio img {
-  padding: 0px 50px;
-}
-
-#portfolio h3 {
-  line-height: 1px;
-  padding-left: 50px;
-}
-
-#portfolio h4 {
-  font-weight: lighter;
-  font-size: 16px;
-  line-height: 0px;
-  padding-left: 50px;
-}
-
-#portfolio p {
-    font-size: 14px;
-    padding: 0px 50px;
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background: url(../img/brain-mobile.png) no-repeat;
+    background-size: cover;
+    background-color: #99ff99;
+    width: inherit;
+    height: 600px;
   }
 
-#portfolio a {
-  text-decoration: none;
-}
-
-/*****ABOUT*****/
-
+  h5 {
+    font-size: 2em;
+     margin: 5px;
+     padding: 0;
+     color: white;
+  }
 
 section {
-  background: url(../img/arrows-full.png);
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#about h2 {
-  background-color: #99ff99;
-  border: 10px solid white;
-  border-radius: 40px;
-  color: #1f202b;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 36px;
-  font-weight: 600;
-  margin-left: 450px;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*****MOBILE STYLING*****/
+
+.name {
+  width: 100%;
+  padding: 20px;
   text-align: center;
-  width: 300px;
+
 }
 
-#about h3 {
-  background-color: #1f202b;
-  color: white;
-  padding: 15px;
+.img-section {
+  background: url(../img/brain-hero-full.png);
 }
 
-#about p {
-  color: white;
-  padding: 15px;
-  width: 480px;
+header nav {
+
+	padding: 40px 20px;
 }
 
- #blurb {
-  background-color: #1f202b;
-  border: 10px solid #1f202b;
-  border-radius: 70px;
-  margin-top: 30px;
-  margin-left: 90px;
+header nav ul {
+	list-style-type: none;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
 }
 
-#profile {
-  padding-left: 100px;
-  padding-top: 40px;
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.875em;
+	padding: 10px 10px;
+
 }
-
-#profile img {
-  border: 10px solid #1f202b;
-  border-radius: 80px;
-  height: 400px;
-  margin: 0 auto;
-  width: 300px;
+header nav ul li a{
+	text-decoration: none;
+	color: deeppink;
 }
-
-/*****CONTACT*****/
-#contact h2 {
-  color: #99ff99;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 36px;
-  font-weight: lighter;
-  padding-top: 20px;
-  text-align: center;
-}
-
-  #contact h3 {
-    text-align: center;
-  }
-
-  #contact p {
-    text-align: center;
-  }
-
-  #contact ul li{
-    display: inline-block;
-    padding-left: 40px;
-  }
-
-  /*****footer*****/
-  footer{
-    text-align: center;
-  }

@@ -15,39 +15,37 @@
     </head>
 
     <body>
-      <div class="full-width">
-        <div class="half-width">
-          <h5>&lt;melissa lux | web developer/&gt;</h5>
-        </div>
-        <div class="half-width">
-          <nav>
-            <ul>
+      <div class="container">
+        
+          <div class="name">
+            <h5>&lt;melissa lux | web developer/&gt;</h5>
+          </div>
+          <header>
+            <nav>
+              <ul>
               <li><a href="#portfolio">portfolio</a></li>
               <li><a href="#about">about</a></li>
               <li><a href="creative/index.html">creative</a></li>
               <li><a href="#contact">contact</a></li>
             </ul>
           </nav>
-        </div>
-      </div>
-
-<!--HERO IMAGE SECTION-->
-      <header>
-        <div class="full-width">
-          <h1>let's <br><span>code</span><br>now</h1>
-        </div>
       </header>
 
+<!--HERO IMAGE SECTION
+      <main class="top-section">
+        <div class="main-image"><img src="img/brain-hero-full.png" alt="brain having ideas" /></div>
+      </main>-->
+
 <!--PORTFOLIO-->
-      <div class="full-width" id="portfolio">
-        <div class="full-width">
+      <section class="portfolio">
+        <div class="title"
           <h2>my portfolio</h2>
         </div>
-      <div class="third-width">
-        <div>
+      <div class="portfo-one">
+        <div class="thumbnail">
           <a href="http://codewitchconsulting.com/" target="_blank"><img src="img/jubilee-thumbnail.png" alt="thumbnail for Jubilee Austen landing page"/></a>
         </div>
-        <div>
+        <div class="description">
           <h3>Jubille Austen Project</h3>
           <h4>HTML5 & CSS Website</h4>
           <p>Created from a Photoshop Design Comp, this static website uses HTML5 and CSS to execute a clean modern experience. Click on the thumbnail to experience the site. <a href="https://github.com/xullem/jubilee-custom" target="_blank"><span>Click here to get a look at the code.</span></a>
@@ -55,11 +53,11 @@
         </div>
       </div>
 
-      <div class="third-width">
-        <div>
+      <div class="portfo-two">
+        <div class="thumbnail">
           <a href="https://xullem.github.io/rouge-pickings/" target="_blank"><img src="img/rogue-pickings-thumbnail.png" alt="thumbnail for rogue pickings landing page"/></a>
         </div>
-        <div>
+        <div class="description">
           <h3>Rogue Pickings Website</h3>
           <h4>HTML & CSS</h4>
           <p>The landing page for the fictious Rogue Pickings food truck was my first solo project in creating a website from scratch using nothing but a Photoshop Design Comp, HTML, CSS, and everything I learned in my first classes of the Break Into Tech Blueprint, offered by SkillCrush. Click on the thumbnail to experience the site. <a href="https://github.com/xullem/rouge-pickings" target="_blank"><span>Click here to get a look at the code.</span></a>
@@ -67,31 +65,31 @@
         </div>
       </div>
 
-      <div class="third-width">
-        <div>
+      <div class="portfo-three">
+        <div class="thumbnail">
           <a href="https://xullem.github.io/polar-ice/" target="_blank"><img src="img/polar-ice-thumbnail.png" alt="thumbnail for Polar Ice of New York"/></a>
         </div>
-          <div>
+          <div class="description">
             <h3>Polar Ice Landing Page</h3>
             <h4>Design, HTML5 & CSS</h4>
             <p>I designed and coded this one page static landing page for a small, family owned business in New York. <a href="https://github.com/xullem/polar-ice" target="_blank"><span>Click here to visit this repo on Github.</span></a>
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
 
 <!--ABOUT ME-->
-      <section>
-        <div class="full-width" id="about">
+      <section class="about-me">
+        <div class="title">
           <h2>about me</h2>
-<!--about-half-width necessary to give flexibility for blurb side-->
-        <div class="about-half-width" id="blurb">
+        </div>
+        <div class="blurb">
           <h3>I am passionate about coding.</h3>
           <p>I have creative heart with a perfectionist’s attention to detail and execution. This has served me well in my work as a music educator, a marching band director and musical conductor but none so well as in my work as a <strong><span>coder</span></strong>.  I get profound satisfaction out of creating and problem solving. In my previous artistic endeavors, the quality of my product was largely subjective. I genuinely enjoy the binary correctness or incorrectness of computer code. If it’s right, it’s right! And if it’s wrong, there is a reason. Hunting down those reasons and inventing solutions are the way I joyfully prefer to spend my time! I am an enthusiastic, easy going collaborator.<br><br> Let me <strong><span>code</span></strong> your vision into reality.
           </p>
         </div>
-        <div class="about-half-width" id="profile">
+        <div class="profile-pic">
           <img src="img/profile.png" alt="black and white photo of me"/>
         </div>
       </div>
@@ -99,8 +97,10 @@
 
 <!--CONTACT-->
 
-      <div class="full-width" id="contact">
+      <section class="contact-me">
+        <div class="title">
           <h2>let's connect</h2>
+        </div>
         <div class="third-width">
           <h3>Hire me</h3>
           <p>505-506-8648<br>heyhendrickson@gmail.com</p>
@@ -124,5 +124,6 @@
     <footer>
       <p>Copyright 2019 | Melissa Lux</p>
     </footer>
+        </div>
   </body>
 </html>
