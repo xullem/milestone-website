@@ -73,6 +73,18 @@ p {
   font-size: 1.875em;
 }
 
+span {
+  color: deeppink;
+}
+
+p span:hover {
+    color: #99ff99;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*****MOBILE STYLING*****/
 
 .name {
@@ -123,6 +135,10 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+}
+
+.description {
+  padding: 0px 100px 100px 100px;
 }
 
 
