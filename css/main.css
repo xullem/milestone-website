@@ -119,6 +119,12 @@ header nav ul li a{
   align-items: center;
   flex-wrap: wrap;
 }
+ .thumbnail {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
 
 .portfo-one, .portfo-two, .portfo-three {
   width: 100%;
