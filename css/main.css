@@ -58,11 +58,12 @@ h1 {
 }
 
 h2 {
-  font-size: 2.4em;
+  font-size: 2.6em;
+  padding: 12px;
 }
 
 h3 {
-  font-size: 2.1em;
+  font-size: 2.4em;
 }
 
 h4 {
@@ -70,7 +71,7 @@ h4 {
 }
 
 p {
-  font-size: 1.875em;
+  font-size: 1.975em;
 }
 
 span {
@@ -137,6 +138,10 @@ header nav ul li a{
     flex-direction: row-reverse;
 }
 
+.thumbnail img {
+  padding: 20px;
+}
+
 .description {
   padding: 0px 100px 100px 100px;
 }
@@ -150,6 +155,7 @@ header nav ul li a{
 }
 
 .about-me {
+  height: 1600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,4 +176,31 @@ header nav ul li a{
     border-radius: 80px;
     padding: 30px;
     margin: 30px;
+}
+
+.third-width {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-me {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.third-width ul li {
+  list-style: none;
+  display: inline;
+  padding: 30px;
+}
+
+.third-width a {
+  font-family: 'Montserrat', sans-serif;
+  color: #99ff99;
+  font-size: 2.1em;
+
+}
+
+.third-width a:hover {
+    color: #99ff99;
 }
