@@ -136,7 +136,7 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .thumbnail img {
@@ -205,4 +205,9 @@ header nav ul li a{
 
 .third-width a:hover {
     color: #99ff99;
+}
+
+/*****DESKTOP*****/
+@media all and (min-width:1200px) {
+
 }
