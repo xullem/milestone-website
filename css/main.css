@@ -51,10 +51,11 @@ footer {
 }
 
 h1 {
-  font-size: 2.6em;
-   margin: 5px;
-   padding: 0;
-   color: white;
+    font-size: 2.875em;
+    margin: 5px;
+    padding-bottom: 20px;
+    color: white;
+    border-bottom: 4px solid deeppink;
 }
 
 h2 {
@@ -111,15 +112,49 @@ header nav ul {
 	padding: 0;
 }
 
-header nav ul li {
-	font-weight: 700;
-	font-size: 2.875em;
-	padding: 12px 10px;
+header p {
+  font-weight: 700;
+  font-size: 7.875em;
+  padding: 12px 5px;
   font-family: 'Fredoka One', cursive;
+  line-height: .7em;
+  margin-bottom: 20px;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color: deeppink;
+}
+
+header nav {
+
+	padding: 40px 40px;
+}
+
+.topper nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topper nav ul li {
+    font-weight: 700;
+    font-size: 2.4em;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+.topper nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.topper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .title {
