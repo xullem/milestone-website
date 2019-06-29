@@ -51,11 +51,13 @@ footer {
 }
 
 h1 {
+    font-family: monospace;
     font-size: 2.875em;
     margin: 5px;
     padding-bottom: 20px;
     color: white;
     border-bottom: 4px solid deeppink;
+
 }
 
 h2 {
@@ -140,10 +142,10 @@ header nav {
 
 .topper nav ul li {
     font-weight: 700;
-    font-size: 2.4em;
+    font-size: 2.3em;
     padding: 0px 10px;
     padding-bottom: 20px;
-    font-family: 'Fredoka One', cursive;
+
 }
 .topper nav ul li a{
 	text-decoration: none;
