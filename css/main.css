@@ -244,6 +244,10 @@ header nav {
     color: #99ff99;
 }
 /*****CREATE PAGE*****/
+.warning {
+  color: orange;
+  font-size: 4.875em;
+}
 .create p {
   font-size: 5em;
 }
@@ -259,7 +263,8 @@ h1 {
 
 
 p {
-   font-size: 1em;
+  font-size: 1em;
+
  }
 
 .topper nav ul li {
@@ -296,25 +301,37 @@ background-color: #99ff99;
   flex-wrap: nowrap;
   align-items: flex-start;
 }
+
 .thumbnail {
-  margin-top: 0px;
-  display: inherit;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .description {
   padding: 10px;
   border-bottom: none;
 }
+
+.description p {
+  padding: 0 30px;
+  margin: 0;
+}
+
 .info {
   padding: 10px;
+  text-align: center;
 }
 
 .info h3 {
   font-size: 1.8em;
+  margin: 5px;
 }
 
 .info h4 {
   font-size: 1.4em;
+  margin: 0;
 }
 
 .about-me {
