@@ -243,8 +243,98 @@ header nav {
 .third-width a:hover {
     color: #99ff99;
 }
-
+/*****CREATE PAGE*****/
+.create p {
+  font-size: 5em;
+}
 /*****DESKTOP*****/
 @media all and (min-width:1200px) {
 
+h1 {
+  font-size: 1.8em;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+
+
+p {
+   font-size: 1em;
+ }
+
+.topper nav ul li {
+  font-size: 1.6em;
+  padding-bottom: 0px;
+}
+
+.topper {
+  flex-wrap: nowrap;
+  height: 50px;
+  width: 100%;
+  border-bottom: 4px solid deeppink;
+}
+header p {
+  font-size: 7.35em;
+  margin-bottom: 1px;
+  padding-right: 30px;
+}
+.name {
+  text-align: left;
+}
+header {
+background: url(../img/brain-original.png) no-repeat;
+background-size: cover;
+background-color: #99ff99;
+}
+
+.title h2 {
+  padding: 0px;
+
+}
+
+.portfolio {
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.thumbnail {
+  margin-top: 0px;
+  display: inherit;
+}
+
+.description {
+  padding: 10px;
+  border-bottom: none;
+}
+.info {
+  padding: 10px;
+}
+
+.info h3 {
+  font-size: 1.8em;
+}
+
+.info h4 {
+  font-size: 1.4em;
+}
+
+.about-me {
+  height: 600px;
+  flex-direction: row-reverse;
+}
+
+.about-me img {
+  margin: 30px;
+}
+
+.contact-me {
+  flex-wrap: nowrap;
+}
+
+.third-width h3 {
+  font-size: 1.8em;
+}
+
+footer p {
+  padding: 20px;
+}
 }
